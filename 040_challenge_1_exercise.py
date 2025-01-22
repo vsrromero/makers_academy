@@ -30,7 +30,27 @@ print("")
 print("Function: report_long_words")
 
 def report_long_words(words):
-  pass
+  
+  outcome = "These words are quite long: "
+  long_words = []
+  
+  for word in words:
+    
+    if "-" not in word:
+      
+      if 10 < len(word) < 15:
+        long_words.append(word)
+      
+      elif len(word) > 15:
+        long_words.append(word[0:15] + "...")
+  
+  if long_words:
+    
+    outcome += ", ".join(long_words)
+  
+  return outcome
+  
+        
 
 check_that_these_are_equal(
   report_long_words([

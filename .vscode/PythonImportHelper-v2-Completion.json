@@ -1,0 +1,1344 @@
+[
+    {
+        "label": "check_that_these_are_equal",
+        "importPath": "lib.helpers",
+        "description": "lib.helpers",
+        "isExtraImport": true,
+        "detail": "lib.helpers",
+        "documentation": {}
+    },
+    {
+        "label": "check_that_these_are_equal",
+        "importPath": "lib.helpers",
+        "description": "lib.helpers",
+        "isExtraImport": true,
+        "detail": "lib.helpers",
+        "documentation": {}
+    },
+    {
+        "label": "check_that_these_are_equal",
+        "importPath": "lib.helpers",
+        "description": "lib.helpers",
+        "isExtraImport": true,
+        "detail": "lib.helpers",
+        "documentation": {}
+    },
+    {
+        "label": "check_that_these_are_equal",
+        "importPath": "lib.helpers",
+        "description": "lib.helpers",
+        "isExtraImport": true,
+        "detail": "lib.helpers",
+        "documentation": {}
+    },
+    {
+        "label": "check_that_these_are_equal",
+        "importPath": "lib.helpers",
+        "description": "lib.helpers",
+        "isExtraImport": true,
+        "detail": "lib.helpers",
+        "documentation": {}
+    },
+    {
+        "label": "check_that_these_are_equal",
+        "importPath": "lib.helpers",
+        "description": "lib.helpers",
+        "isExtraImport": true,
+        "detail": "lib.helpers",
+        "documentation": {}
+    },
+    {
+        "label": "check_that_these_are_equal",
+        "importPath": "lib.helpers",
+        "description": "lib.helpers",
+        "isExtraImport": true,
+        "detail": "lib.helpers",
+        "documentation": {}
+    },
+    {
+        "label": "check_that_these_are_equal",
+        "importPath": "lib.helpers",
+        "description": "lib.helpers",
+        "isExtraImport": true,
+        "detail": "lib.helpers",
+        "documentation": {}
+    },
+    {
+        "label": "check_that_these_are_equal",
+        "importPath": "lib.helpers",
+        "description": "lib.helpers",
+        "isExtraImport": true,
+        "detail": "lib.helpers",
+        "documentation": {}
+    },
+    {
+        "label": "check_that_these_are_equal",
+        "importPath": "lib.helpers",
+        "description": "lib.helpers",
+        "isExtraImport": true,
+        "detail": "lib.helpers",
+        "documentation": {}
+    },
+    {
+        "label": "check_that_these_are_equal",
+        "importPath": "lib.helpers",
+        "description": "lib.helpers",
+        "isExtraImport": true,
+        "detail": "lib.helpers",
+        "documentation": {}
+    },
+    {
+        "label": "check_that_these_are_equal",
+        "importPath": "lib.helpers",
+        "description": "lib.helpers",
+        "isExtraImport": true,
+        "detail": "lib.helpers",
+        "documentation": {}
+    },
+    {
+        "label": "check_that_these_are_equal",
+        "importPath": "lib.helpers",
+        "description": "lib.helpers",
+        "isExtraImport": true,
+        "detail": "lib.helpers",
+        "documentation": {}
+    },
+    {
+        "label": "check_that_these_are_equal",
+        "importPath": "lib.helpers",
+        "description": "lib.helpers",
+        "isExtraImport": true,
+        "detail": "lib.helpers",
+        "documentation": {}
+    },
+    {
+        "label": "check_that_these_are_equal",
+        "importPath": "lib.helpers",
+        "description": "lib.helpers",
+        "isExtraImport": true,
+        "detail": "lib.helpers",
+        "documentation": {}
+    },
+    {
+        "label": "check_that_these_are_equal",
+        "importPath": "lib.helpers",
+        "description": "lib.helpers",
+        "isExtraImport": true,
+        "detail": "lib.helpers",
+        "documentation": {}
+    },
+    {
+        "label": "check_that_these_are_equal",
+        "importPath": "lib.helpers",
+        "description": "lib.helpers",
+        "isExtraImport": true,
+        "detail": "lib.helpers",
+        "documentation": {}
+    },
+    {
+        "label": "these_are_the_same",
+        "kind": 2,
+        "importPath": "lib.helpers",
+        "description": "lib.helpers",
+        "peekOfCode": "def these_are_the_same(a, b):\n    if a == b:\n        print(f\"[TRUE]  {a} == {b}\")\n    else:\n        print(f\"[FALSE] {a} != {b}\")\ndef show_us_the_output_of(a):\n    print(f\"{a}\")\ncount_correct = 0\ndef check_that_these_are_equal(a, b):\n    global count_correct",
+        "detail": "lib.helpers",
+        "documentation": {}
+    },
+    {
+        "label": "show_us_the_output_of",
+        "kind": 2,
+        "importPath": "lib.helpers",
+        "description": "lib.helpers",
+        "peekOfCode": "def show_us_the_output_of(a):\n    print(f\"{a}\")\ncount_correct = 0\ndef check_that_these_are_equal(a, b):\n    global count_correct\n    print(f\"EXPECTED: {b}\")\n    print(f\"ACTUAL:   {a}\")\n    if a == b:\n        count_correct = count_correct + 1\n        print(f\"{GREEN}That's correct! ({count_correct} checks right so far){NC}\\n\")",
+        "detail": "lib.helpers",
+        "documentation": {}
+    },
+    {
+        "label": "check_that_these_are_equal",
+        "kind": 2,
+        "importPath": "lib.helpers",
+        "description": "lib.helpers",
+        "peekOfCode": "def check_that_these_are_equal(a, b):\n    global count_correct\n    print(f\"EXPECTED: {b}\")\n    print(f\"ACTUAL:   {a}\")\n    if a == b:\n        count_correct = count_correct + 1\n        print(f\"{GREEN}That's correct! ({count_correct} checks right so far){NC}\\n\")\n    else:\n        print(f\"{RED}That's not correct. Stopping execution here...{NC}\")\n        exit()",
+        "detail": "lib.helpers",
+        "documentation": {}
+    },
+    {
+        "label": "RED",
+        "kind": 5,
+        "importPath": "lib.helpers",
+        "description": "lib.helpers",
+        "peekOfCode": "RED = '\\033[1;31m'\nGREEN = '\\033[1;32m'\nNC = '\\033[0m'\ndef these_are_the_same(a, b):\n    if a == b:\n        print(f\"[TRUE]  {a} == {b}\")\n    else:\n        print(f\"[FALSE] {a} != {b}\")\ndef show_us_the_output_of(a):\n    print(f\"{a}\")",
+        "detail": "lib.helpers",
+        "documentation": {}
+    },
+    {
+        "label": "GREEN",
+        "kind": 5,
+        "importPath": "lib.helpers",
+        "description": "lib.helpers",
+        "peekOfCode": "GREEN = '\\033[1;32m'\nNC = '\\033[0m'\ndef these_are_the_same(a, b):\n    if a == b:\n        print(f\"[TRUE]  {a} == {b}\")\n    else:\n        print(f\"[FALSE] {a} != {b}\")\ndef show_us_the_output_of(a):\n    print(f\"{a}\")\ncount_correct = 0",
+        "detail": "lib.helpers",
+        "documentation": {}
+    },
+    {
+        "label": "NC",
+        "kind": 5,
+        "importPath": "lib.helpers",
+        "description": "lib.helpers",
+        "peekOfCode": "NC = '\\033[0m'\ndef these_are_the_same(a, b):\n    if a == b:\n        print(f\"[TRUE]  {a} == {b}\")\n    else:\n        print(f\"[FALSE] {a} != {b}\")\ndef show_us_the_output_of(a):\n    print(f\"{a}\")\ncount_correct = 0\ndef check_that_these_are_equal(a, b):",
+        "detail": "lib.helpers",
+        "documentation": {}
+    },
+    {
+        "label": "count_correct",
+        "kind": 5,
+        "importPath": "lib.helpers",
+        "description": "lib.helpers",
+        "peekOfCode": "count_correct = 0\ndef check_that_these_are_equal(a, b):\n    global count_correct\n    print(f\"EXPECTED: {b}\")\n    print(f\"ACTUAL:   {a}\")\n    if a == b:\n        count_correct = count_correct + 1\n        print(f\"{GREEN}That's correct! ({count_correct} checks right so far){NC}\\n\")\n    else:\n        print(f\"{RED}That's not correct. Stopping execution here...{NC}\")",
+        "detail": "lib.helpers",
+        "documentation": {}
+    },
+    {
+        "label": "name",
+        "kind": 5,
+        "importPath": "lib.trial",
+        "description": "lib.trial",
+        "peekOfCode": "name = input()\nprint(f\"Hello, {name}! You ran me successfully!\")\nprint(\"If you haven't already, open 000_START_HERE.md in the sidebar.\")",
+        "detail": "lib.trial",
+        "documentation": {}
+    },
+    {
+        "label": "just_return_it",
+        "kind": 2,
+        "importPath": "011_identity",
+        "description": "011_identity",
+        "peekOfCode": "def just_return_it(num):\n  return num\n# This is a function. A function is a reusable block of\n# code.\n# Think of a function as a little machine. It takes an\n# input, processes it in some way, and then returns an\n# output.\n# This `just_return_it` function has:\n# * A name: `just_return_it` that we can use to call it\n# * A parameter: `num` that it takes as input. You might",
+        "detail": "011_identity",
+        "documentation": {}
+    },
+    {
+        "label": "add_one",
+        "kind": 2,
+        "importPath": "012_add_one",
+        "description": "012_add_one",
+        "peekOfCode": "def add_one(num):\n  return num + 1\n# Here is how it used:\nadd_one(6)\n# And let's see it printed out:\nprint(\"add_one(6) returns:\")\nprint(add_one(6))\n# @TASK: Run this code in the shell:\n#\n#   python 012_add_one.py",
+        "detail": "012_add_one",
+        "documentation": {}
+    },
+    {
+        "label": "add_two",
+        "kind": 2,
+        "importPath": "013_add_two",
+        "description": "013_add_two",
+        "peekOfCode": "def add_two(number_to_add):\n  return number_to_add + 2\n# YOUR FUNCTION GOES ABOVE THIS LINE\n# @TASK: To check your work, run this in the shell:\n#   python 013_add_two.py\n# This will run the test at the bottom of this file.\n# If you have trouble, look back at `add_one` _very_\n# closely, character by character, to see if you can see any\n# differences to your version. Pay particular attention to\n# the `:` at the end of the first line, and the spacing at",
+        "detail": "013_add_two",
+        "documentation": {}
+    },
+    {
+        "label": "multiply_numbers",
+        "kind": 2,
+        "importPath": "014_multiply_numbers",
+        "description": "014_multiply_numbers",
+        "peekOfCode": "def multiply_numbers(num_a, num_b):\n  return num_a * num_b # That `*` means multiply\n# And let's use it:\nprint(\"multiply_numbers(2, 3) is:\")\nprint(multiply_numbers(2, 3))\nprint(\"multiply_numbers(3, 5) is:\")\nprint(multiply_numbers(3, 5))\n# @TASK: Run these in the shell using:\n#   python 014_multiply_numbers.py\n# Now move on to 015_add_numbers.py to write your own.",
+        "detail": "014_multiply_numbers",
+        "documentation": {}
+    },
+    {
+        "label": "add_numbers",
+        "kind": 2,
+        "importPath": "015_add_numbers",
+        "description": "015_add_numbers",
+        "peekOfCode": "def add_numbers(num_a, num_b):\n  return num_a + num_b\n# YOUR FUNCTION GOES ABOVE THIS LINE\n# @TASK: Check your work by running:\n#   python 015_add_numbers.py\n# Below is a test for your function.\nprint(\"add_numbers(2, 3) is:\")\ncheck_that_these_are_equal(\n  add_numbers(2, 3),\n  5",
+        "detail": "015_add_numbers",
+        "documentation": {}
+    },
+    {
+        "label": "add_one",
+        "kind": 2,
+        "importPath": "016_operators",
+        "description": "016_operators",
+        "peekOfCode": "def add_one(num):\n  return num + 1\n# You may need to widen the panel or zoom out to see the table:\n# | Code           | What is it?                                        |\n# | -------------- | -------------------------------------------------- |\n# | def            | `def` is a keyword that defines a new function     |\n# | add_one        | `add_one` is the function name                     |\n# | (num)          | `(num)` is the parameter list                      |\n# | num            | `num` is a parameter                               |\n# | :              | The `:` symbol indicates the body should start now |",
+        "detail": "016_operators",
+        "documentation": {}
+    },
+    {
+        "label": "added",
+        "kind": 5,
+        "importPath": "016_operators",
+        "description": "016_operators",
+        "peekOfCode": "added = 2 + 3\nprint(f\"2 + 3 = {added} (should be 5)\")\n# Multiplication\nmultiplied = 2 * 3\nprint(f\"2 * 3 = {multiplied} (should be 6)\")\n# @TASK: For each section below:\n#\n# 1. Uncomment the code by removing the `# `\n# 2. Replace the `?` with the right operator\n# 3. Check it by running `python 016_operators.py`",
+        "detail": "016_operators",
+        "documentation": {}
+    },
+    {
+        "label": "multiplied",
+        "kind": 5,
+        "importPath": "016_operators",
+        "description": "016_operators",
+        "peekOfCode": "multiplied = 2 * 3\nprint(f\"2 * 3 = {multiplied} (should be 6)\")\n# @TASK: For each section below:\n#\n# 1. Uncomment the code by removing the `# `\n# 2. Replace the `?` with the right operator\n# 3. Check it by running `python 016_operators.py`\n# == Subtraction ==\n# subtracted = 2 ? 3\n# print(f\"2 ? 3 = {subtracted} (should be -1)\")",
+        "detail": "016_operators",
+        "documentation": {}
+    },
+    {
+        "label": "add_one",
+        "kind": 2,
+        "importPath": "017_expressions",
+        "description": "017_expressions",
+        "peekOfCode": "def add_one(num):\n  return num + 1\n# Here are some more expressions:\nadd_one(2)          # Evaluates to 3\nadd_one(3)          # Evaluates to 4\nadd_one(4) * 3      # Evaluates to 15\n2 + add_one(4) * 3  # Evaluates to 17\n# What to take from this? Calling a function is also an\n# expression! Many things in Python are expressions, and we\n# can combine data, operators, and function calls into some",
+        "detail": "017_expressions",
+        "documentation": {}
+    },
+    {
+        "label": "added",
+        "kind": 5,
+        "importPath": "017_expressions",
+        "description": "017_expressions",
+        "peekOfCode": "added = 2 + 3\n# Is this an expression? Not quite. It does contain an\n# expression though.\n# The expression part is this:\n2 + 3\n# The expression is the fundamental unit of computation in\n# your program. It is the combination of data and operators\n# (and some other things) to produce a result.\n# Here are some more examples of expressions:\n2            # Evaluates to: 2",
+        "detail": "017_expressions",
+        "documentation": {}
+    },
+    {
+        "label": "added",
+        "kind": 5,
+        "importPath": "018_statements",
+        "description": "018_statements",
+        "peekOfCode": "added = 2 + 3\n# Is this a statement? Yes!\n#\n# That statement uses the `=` operator to assign the result\n# of the expression on the right (`2 + 3`) to the name on\n# the left (`added`).\n#\n# It's called a statement because it changes the 'state' of\n# the program.\n#",
+        "detail": "018_statements",
+        "documentation": {}
+    },
+    {
+        "label": "my_favourite_number",
+        "kind": 5,
+        "importPath": "018_statements",
+        "description": "018_statements",
+        "peekOfCode": "my_favourite_number = 99\nprint(f\"My favourite number is: {my_favourite_number}\")\nprint(\"---\")\n# Here's the state of the above program after all lines are\n# executed:\n#\n# | Name                | Value |\n# | ------------------- | ----- |\n# | my_favourite_number | 99    |\n#",
+        "detail": "018_statements",
+        "documentation": {}
+    },
+    {
+        "label": "todays_day",
+        "kind": 5,
+        "importPath": "018_statements",
+        "description": "018_statements",
+        "peekOfCode": "todays_day = 19\ntodays_day = 20\nprint(f\"Today's day is: {todays_day}\")\nprint(\"---\")\n# @TASK: What will it print? Run this file and find out.\n#\n# You'll see that the first `19` value is thrown away and\n# replaced with the second `20` value.\n# When you're ready, move on to 019_state.py",
+        "detail": "018_statements",
+        "documentation": {}
+    },
+    {
+        "label": "todays_day",
+        "kind": 5,
+        "importPath": "018_statements",
+        "description": "018_statements",
+        "peekOfCode": "todays_day = 20\nprint(f\"Today's day is: {todays_day}\")\nprint(\"---\")\n# @TASK: What will it print? Run this file and find out.\n#\n# You'll see that the first `19` value is thrown away and\n# replaced with the second `20` value.\n# When you're ready, move on to 019_state.py",
+        "detail": "018_statements",
+        "documentation": {}
+    },
+    {
+        "label": "a",
+        "kind": 5,
+        "importPath": "019_state",
+        "description": "019_state",
+        "peekOfCode": "a = 10\nb = 20\na = b\nprint(f\"a is {a}\")\nprint(f\"b is {b}\")\n# @TASK: What does that output? And why? Take a guess, then\n# run the code and see.\n# Was it what you expected?\n# Try to puzzle it out, and then move on to\n# 020_state_tables.py",
+        "detail": "019_state",
+        "documentation": {}
+    },
+    {
+        "label": "b",
+        "kind": 5,
+        "importPath": "019_state",
+        "description": "019_state",
+        "peekOfCode": "b = 20\na = b\nprint(f\"a is {a}\")\nprint(f\"b is {b}\")\n# @TASK: What does that output? And why? Take a guess, then\n# run the code and see.\n# Was it what you expected?\n# Try to puzzle it out, and then move on to\n# 020_state_tables.py",
+        "detail": "019_state",
+        "documentation": {}
+    },
+    {
+        "label": "a",
+        "kind": 5,
+        "importPath": "019_state",
+        "description": "019_state",
+        "peekOfCode": "a = b\nprint(f\"a is {a}\")\nprint(f\"b is {b}\")\n# @TASK: What does that output? And why? Take a guess, then\n# run the code and see.\n# Was it what you expected?\n# Try to puzzle it out, and then move on to\n# 020_state_tables.py",
+        "detail": "019_state",
+        "documentation": {}
+    },
+    {
+        "label": "a",
+        "kind": 5,
+        "importPath": "020_state_tables",
+        "description": "020_state_tables",
+        "peekOfCode": "a = 10\nb = 20\na = b\nprint(f\"a is {a}\")\nprint(f\"b is {b}\")\n# Python programs execute line by line, starting at the top.\n# We're going to go through this code line by line and I'll\n# explain what's happening.\n# Initially the state is empty.\n# Python executes the line:",
+        "detail": "020_state_tables",
+        "documentation": {}
+    },
+    {
+        "label": "b",
+        "kind": 5,
+        "importPath": "020_state_tables",
+        "description": "020_state_tables",
+        "peekOfCode": "b = 20\na = b\nprint(f\"a is {a}\")\nprint(f\"b is {b}\")\n# Python programs execute line by line, starting at the top.\n# We're going to go through this code line by line and I'll\n# explain what's happening.\n# Initially the state is empty.\n# Python executes the line:\n#   a = 10",
+        "detail": "020_state_tables",
+        "documentation": {}
+    },
+    {
+        "label": "a",
+        "kind": 5,
+        "importPath": "020_state_tables",
+        "description": "020_state_tables",
+        "peekOfCode": "a = b\nprint(f\"a is {a}\")\nprint(f\"b is {b}\")\n# Python programs execute line by line, starting at the top.\n# We're going to go through this code line by line and I'll\n# explain what's happening.\n# Initially the state is empty.\n# Python executes the line:\n#   a = 10\n#",
+        "detail": "020_state_tables",
+        "documentation": {}
+    },
+    {
+        "label": "add_one_and_divide_by_two_with_statements",
+        "kind": 2,
+        "importPath": "021_two_step",
+        "description": "021_two_step",
+        "peekOfCode": "def add_one_and_divide_by_two_with_statements(num):\n  added = num + 1\n  halved = added / 2\n  return halved\nprint(\"add_one_and_divide_by_two_with_statements(5) is:\")\nprint(\n  add_one_and_divide_by_two_with_statements(5)\n)\n# You could also do this with a single expression, like this:\ndef add_one_and_divide_by_two_with_an_expression(num):",
+        "detail": "021_two_step",
+        "documentation": {}
+    },
+    {
+        "label": "add_one_and_divide_by_two_with_an_expression",
+        "kind": 2,
+        "importPath": "021_two_step",
+        "description": "021_two_step",
+        "peekOfCode": "def add_one_and_divide_by_two_with_an_expression(num):\n  return (num + 1) / 2\nprint(\"add_one_and_divide_by_two_with_an_expression(5) is:\")\nprint(\n  add_one_and_divide_by_two_with_an_expression(5)\n)\n# The statements just break it up a bit more. We'll see some\n# more uses for statements and variables soon, but for now\n# let's practice using them.\n# @TASK: Complete these functions.",
+        "detail": "021_two_step",
+        "documentation": {}
+    },
+    {
+        "label": "divide_by_two_and_add_one",
+        "kind": 2,
+        "importPath": "021_two_step",
+        "description": "021_two_step",
+        "peekOfCode": "def divide_by_two_and_add_one(num):\n  # Divide num by two and add one to the result\n  return num / 2 + 1\ncheck_that_these_are_equal(\n  divide_by_two_and_add_one(6),\n  4.0\n)\n# == Exercise Two ==\nprint(\"\")\nprint(\"Function: multiply_by_forty_and_add_sixty\")",
+        "detail": "021_two_step",
+        "documentation": {}
+    },
+    {
+        "label": "multiply_by_forty_and_add_sixty",
+        "kind": 2,
+        "importPath": "021_two_step",
+        "description": "021_two_step",
+        "peekOfCode": "def multiply_by_forty_and_add_sixty(num):\n  # Multiply num by forty, and then add sixty\n  return num * 40 + 60\ncheck_that_these_are_equal(\n  multiply_by_forty_and_add_sixty(3423),\n  136980\n)\n# == Exercise Three ==\nprint(\"\")\nprint(\"Function: add_together_and_double\")",
+        "detail": "021_two_step",
+        "documentation": {}
+    },
+    {
+        "label": "add_together_and_double",
+        "kind": 2,
+        "importPath": "021_two_step",
+        "description": "021_two_step",
+        "peekOfCode": "def add_together_and_double(num_a, num_b):\n  # Add together num_a and num_b, then double the result\n  return (num_a + num_b) * 2\ncheck_that_these_are_equal(\n  add_together_and_double(3, 4),\n  14\n)\n# When you're done, move on to 022_strings.py",
+        "detail": "021_two_step",
+        "documentation": {}
+    },
+    {
+        "label": "my_name",
+        "kind": 5,
+        "importPath": "022_strings",
+        "description": "022_strings",
+        "peekOfCode": "my_name = \"Kay\"\nprint(my_name)\n# They are surrounded by double quotes:\nmy_name = \"Kay\"\n# Or single quotes:\nmy_name = 'Kay'\n# In Python, there's no meaningful difference between the\n# two.\n# Try out creating a string with your name in it:\nyour_name = \"Victor\"",
+        "detail": "022_strings",
+        "documentation": {}
+    },
+    {
+        "label": "my_name",
+        "kind": 5,
+        "importPath": "022_strings",
+        "description": "022_strings",
+        "peekOfCode": "my_name = \"Kay\"\n# Or single quotes:\nmy_name = 'Kay'\n# In Python, there's no meaningful difference between the\n# two.\n# Try out creating a string with your name in it:\nyour_name = \"Victor\"\nprint(your_name)\n# @TASK: Check your work by running this file with:\n# python 022_strings.py",
+        "detail": "022_strings",
+        "documentation": {}
+    },
+    {
+        "label": "my_name",
+        "kind": 5,
+        "importPath": "022_strings",
+        "description": "022_strings",
+        "peekOfCode": "my_name = 'Kay'\n# In Python, there's no meaningful difference between the\n# two.\n# Try out creating a string with your name in it:\nyour_name = \"Victor\"\nprint(your_name)\n# @TASK: Check your work by running this file with:\n# python 022_strings.py\n# As you may have worked out, the `print(string)` function\n# prints a string to the shell so you can see it.",
+        "detail": "022_strings",
+        "documentation": {}
+    },
+    {
+        "label": "your_name",
+        "kind": 5,
+        "importPath": "022_strings",
+        "description": "022_strings",
+        "peekOfCode": "your_name = \"Victor\"\nprint(your_name)\n# @TASK: Check your work by running this file with:\n# python 022_strings.py\n# As you may have worked out, the `print(string)` function\n# prints a string to the shell so you can see it.\n# When you're satisfied, move on to 023_string_indexing.py",
+        "detail": "022_strings",
+        "documentation": {}
+    },
+    {
+        "label": "get_first_letter",
+        "kind": 2,
+        "importPath": "023_string_indexing",
+        "description": "023_string_indexing",
+        "peekOfCode": "def get_first_letter(the_str):\n  # Return the first letter of the string\n  return the_str[0]\ncheck_that_these_are_equal(\n  get_first_letter(\"The king granted them\"),\n  \"T\"\n)\ncheck_that_these_are_equal(\n  get_first_letter(\"Five years later\"),\n  \"F\"",
+        "detail": "023_string_indexing",
+        "documentation": {}
+    },
+    {
+        "label": "get_last_letter",
+        "kind": 2,
+        "importPath": "023_string_indexing",
+        "description": "023_string_indexing",
+        "peekOfCode": "def get_last_letter(the_str):\n  # Return the last letter of the string\n  return the_str[-1]\ncheck_that_these_are_equal(\n  get_last_letter(\"The king granted them\"),\n  \"m\"\n)\ncheck_that_these_are_equal(\n  get_last_letter(\"Five years later\"),\n  \"r\"",
+        "detail": "023_string_indexing",
+        "documentation": {}
+    },
+    {
+        "label": "get_nth_letter",
+        "kind": 2,
+        "importPath": "023_string_indexing",
+        "description": "023_string_indexing",
+        "peekOfCode": "def get_nth_letter(the_str, n):\n  # Return the letter of the string at the specified index\n  return the_str[n]\ncheck_that_these_are_equal(\n  get_nth_letter(\"The king granted them\", 4),\n  \"k\"\n)\ncheck_that_these_are_equal(\n  get_nth_letter(\"Five years later\", 7),\n  \"a\"",
+        "detail": "023_string_indexing",
+        "documentation": {}
+    },
+    {
+        "label": "get_letters_between_four_and_eight",
+        "kind": 2,
+        "importPath": "023_string_indexing",
+        "description": "023_string_indexing",
+        "peekOfCode": "def get_letters_between_four_and_eight(the_str):\n  # Return the section of the string between indexes four\n  # and eight\n  return the_str[4:8]\ncheck_that_these_are_equal(\n  get_letters_between_four_and_eight(\"The king granted them\"),\n  \"king\"\n)\ncheck_that_these_are_equal(\n  get_letters_between_four_and_eight(\"Five years later\"),",
+        "detail": "023_string_indexing",
+        "documentation": {}
+    },
+    {
+        "label": "note",
+        "kind": 5,
+        "importPath": "023_string_indexing",
+        "description": "023_string_indexing",
+        "peekOfCode": "note = \"The Most Perfect Crab\"\nprint(note)\n# We can access the first character like this:\nprint(note[0])\n# In programming, we count from zero — 'T' is the zeroth\n# character.\n# And the last character like this:\nprint(note[-1])\n# And any in the middle like this:\nprint(note[6])",
+        "detail": "023_string_indexing",
+        "documentation": {}
+    },
+    {
+        "label": "make_uppercase",
+        "kind": 2,
+        "importPath": "024_string_operations",
+        "description": "024_string_operations",
+        "peekOfCode": "def make_uppercase(string):\n  # Return the string in uppercase\n  return string.upper()\ncheck_that_these_are_equal(\n  make_uppercase(\"hello\"), \"HELLO\")\ncheck_that_these_are_equal(\n  make_uppercase(\"World\"), \"WORLD\")\n# == Exercise Two ==\nprint(\"\")\nprint(\"Function: lowercase\")",
+        "detail": "024_string_operations",
+        "documentation": {}
+    },
+    {
+        "label": "make_lowercase",
+        "kind": 2,
+        "importPath": "024_string_operations",
+        "description": "024_string_operations",
+        "peekOfCode": "def make_lowercase(string):\n  # Return the string in lowercase\n  return string.lower()\ncheck_that_these_are_equal(\n  make_lowercase(\"HELLO\"), \"hello\")\ncheck_that_these_are_equal(\n  make_lowercase(\"World\"), \"world\")\n# == Exercise Three ==\nprint(\"\")\nprint(\"Function: strip_whitespace\")",
+        "detail": "024_string_operations",
+        "documentation": {}
+    },
+    {
+        "label": "strip_whitespace",
+        "kind": 2,
+        "importPath": "024_string_operations",
+        "description": "024_string_operations",
+        "peekOfCode": "def strip_whitespace(string):\n  # Return the string with any whitespace removed from\n  # the start and end\n  return string.strip()\ncheck_that_these_are_equal(\n  strip_whitespace(\"hello \"), \"hello\")\ncheck_that_these_are_equal(\n  strip_whitespace(\" hello world \"), \"hello world\")\n# When you're done, move on to 025_string_concatenation.py",
+        "detail": "024_string_operations",
+        "documentation": {}
+    },
+    {
+        "label": "length",
+        "kind": 5,
+        "importPath": "024_string_operations",
+        "description": "024_string_operations",
+        "peekOfCode": "length = len(\"Hello!\")\nprint(f\"The string is {length} characters long\")\n# @TASK: Try it out yourself by changing the string \"Hello!\"\n# above, and then running this code with:\n#\n#   python 024_string_operations.py\n#\n# You'll see some other test output at the bottom. You can\n# ignore this until later in the exercise.\n# == Replace ==",
+        "detail": "024_string_operations",
+        "documentation": {}
+    },
+    {
+        "label": "old_string",
+        "kind": 5,
+        "importPath": "024_string_operations",
+        "description": "024_string_operations",
+        "peekOfCode": "old_string = \"Hello, YOUR_NAME!\"\nnew_string = old_string.replace(\"YOUR_NAME\", \"Kay\")\n# Uncomment this next line to see the result\n# print(new_string)\n# You'll notice here that the function is coming in a\n# different place. Let's compare `len` and `replace`:\nmy_string = \"hello\"\nlen(my_string)              # <-- Independent Function\nmy_string.replace(\"h\", \"w\") # <-- Method Function\n# Why the difference? It's a little complicated.",
+        "detail": "024_string_operations",
+        "documentation": {}
+    },
+    {
+        "label": "new_string",
+        "kind": 5,
+        "importPath": "024_string_operations",
+        "description": "024_string_operations",
+        "peekOfCode": "new_string = old_string.replace(\"YOUR_NAME\", \"Kay\")\n# Uncomment this next line to see the result\n# print(new_string)\n# You'll notice here that the function is coming in a\n# different place. Let's compare `len` and `replace`:\nmy_string = \"hello\"\nlen(my_string)              # <-- Independent Function\nmy_string.replace(\"h\", \"w\") # <-- Method Function\n# Why the difference? It's a little complicated.\n#",
+        "detail": "024_string_operations",
+        "documentation": {}
+    },
+    {
+        "label": "my_string",
+        "kind": 5,
+        "importPath": "024_string_operations",
+        "description": "024_string_operations",
+        "peekOfCode": "my_string = \"hello\"\nlen(my_string)              # <-- Independent Function\nmy_string.replace(\"h\", \"w\") # <-- Method Function\n# Why the difference? It's a little complicated.\n#\n# What you need to know for now is that some functions come\n# in one style like `len`, and some come in the other style\n# like `replace`. The latter are called 'methods'.\n# == Upper and Lowercase ==\n# When you're doing the Makers assessment, you're quite",
+        "detail": "024_string_operations",
+        "documentation": {}
+    },
+    {
+        "label": "greet",
+        "kind": 2,
+        "importPath": "025_string_concatenation",
+        "description": "025_string_concatenation",
+        "peekOfCode": "def greet(name):\n\t# Return the string \"Hello, Kay!\" where \"Kay\" is the\n\t# name provided\n\treturn (f\"Hello, {name}!\")\ncheck_that_these_are_equal(\n\tgreet(\"Chuang-tzu\"),\n\t\"Hello, Chuang-tzu!\"\n)\ncheck_that_these_are_equal(\n\tgreet(\"Crab\"),",
+        "detail": "025_string_concatenation",
+        "documentation": {}
+    },
+    {
+        "label": "my_string",
+        "kind": 5,
+        "importPath": "025_string_concatenation",
+        "description": "025_string_concatenation",
+        "peekOfCode": "my_string = \"Ant\" + \"eater\"\nprint(my_string)\n# As you can see, string concatenation uses the same `+`\n# operator that we used for addition.\n# However, this expression won't work:\n# my_string = \"Forty\" + 2\n# Python doesn't like us mixing the concatenation of strings\n# and the addition of numbers. To make it do this, we need\n# to explicitly convert the number to a string using the\n# `str` function built-in to Python.",
+        "detail": "025_string_concatenation",
+        "documentation": {}
+    },
+    {
+        "label": "my_string",
+        "kind": 5,
+        "importPath": "025_string_concatenation",
+        "description": "025_string_concatenation",
+        "peekOfCode": "my_string = \"Forty\" + str(2)\nprint(my_string)\n# There is another way to concatenate strings which is more\n# convenient. They are called f-strings, and are a feature\n# of Python 3 (which replit.com uses).\n# Here's what they look like:\nmy_name = \"Kay\"\nprint(f\"Hello, {my_name}!\")\n# Note the `f` before the first quote, and the use of `{`\n# and `}` to create space you can put a variable into. In",
+        "detail": "025_string_concatenation",
+        "documentation": {}
+    },
+    {
+        "label": "my_name",
+        "kind": 5,
+        "importPath": "025_string_concatenation",
+        "description": "025_string_concatenation",
+        "peekOfCode": "my_name = \"Kay\"\nprint(f\"Hello, {my_name}!\")\n# Note the `f` before the first quote, and the use of `{`\n# and `}` to create space you can put a variable into. In\n# fact, you can put any expression in there:\nprint(f\"Your name is {len(my_name)} characters long\")\n# If you're particularly attentive, you might be asking how\n# come Python didn't complain about us concatenating a\n# number with a string. This is because f-strings in Python\n# perform that `str` conversion for us. Very handy!",
+        "detail": "025_string_concatenation",
+        "documentation": {}
+    },
+    {
+        "label": "is_first_of_the_month",
+        "kind": 2,
+        "importPath": "026_ifs",
+        "description": "026_ifs",
+        "peekOfCode": "def is_first_of_the_month(day_number):\n  # Return \"First of the month!\" if the day number is 1.\n  # Return \"Not first of the month\" otherwise.\n  if day_number == 1:\n    return \"First of the month!\"\n  else:\n    return \"Not first of the month\"\ncheck_that_these_are_equal(\n  is_first_of_the_month(1),\n  \"First of the month!\"",
+        "detail": "026_ifs",
+        "documentation": {}
+    },
+    {
+        "label": "has_five_chars",
+        "kind": 2,
+        "importPath": "026_ifs",
+        "description": "026_ifs",
+        "peekOfCode": "def has_five_chars(the_str):\n  # Return \"STRING is five characters long\" if the string\n  # is five characters long.\n  # Otherwise, return \"Not five characters\".\n  if len(the_str) == 5:\n    return (f\"{the_str.upper()} is five characters long\")\n  else: \n    return \"Not five characters\"\ncheck_that_these_are_equal(\n  has_five_chars(\"ABCDE\"),",
+        "detail": "026_ifs",
+        "documentation": {}
+    },
+    {
+        "label": "leaves_on_the_tree",
+        "kind": 5,
+        "importPath": "026_ifs",
+        "description": "026_ifs",
+        "peekOfCode": "leaves_on_the_tree = 0\nif leaves_on_the_tree == 0:\n  print(\"It must be winter — or a dead tree\")\n# Let's break this down:\n# The `if` keyword tells Python we want to execute some code\n# conditionally.\n# The `leaves_on_the_tree == 0` is the conditional\n# expression. If this evaluates to True, then the block of\n# code afterwards will be run.\n# Within this, the `==` is a comparison operator. It",
+        "detail": "026_ifs",
+        "documentation": {}
+    },
+    {
+        "label": "a_is_equal_to_b",
+        "kind": 2,
+        "importPath": "027_comparison",
+        "description": "027_comparison",
+        "peekOfCode": "def a_is_equal_to_b(a, b):\n  return a == b\ncheck_that_these_are_equal(\n  a_is_equal_to_b(1, 1),\n  True\n)\ncheck_that_these_are_equal(\n  a_is_equal_to_b(\"a\", \"a\"),\n  True\n)",
+        "detail": "027_comparison",
+        "documentation": {}
+    },
+    {
+        "label": "a_is_less_than_b",
+        "kind": 2,
+        "importPath": "027_comparison",
+        "description": "027_comparison",
+        "peekOfCode": "def a_is_less_than_b(a, b):\n  # Uncomment this next line and replace ?? with the right operator\n  return a < b\ncheck_that_these_are_equal(\n  a_is_less_than_b(1, 2),\n  True\n)\ncheck_that_these_are_equal(\n  a_is_less_than_b(1, 1),\n  False",
+        "detail": "027_comparison",
+        "documentation": {}
+    },
+    {
+        "label": "a_is_greater_than_b",
+        "kind": 2,
+        "importPath": "027_comparison",
+        "description": "027_comparison",
+        "peekOfCode": "def a_is_greater_than_b(a, b):\n  return a > b\ncheck_that_these_are_equal(\n  a_is_greater_than_b(1, 2),\n  False\n)\ncheck_that_these_are_equal(\n  a_is_greater_than_b(1, 1),\n  False\n)",
+        "detail": "027_comparison",
+        "documentation": {}
+    },
+    {
+        "label": "a_is_less_than_or_equal_to_b",
+        "kind": 2,
+        "importPath": "027_comparison",
+        "description": "027_comparison",
+        "peekOfCode": "def a_is_less_than_or_equal_to_b(a, b):\n  return a <= b\ncheck_that_these_are_equal(\n  a_is_less_than_or_equal_to_b(1, 2),\n  True\n)\ncheck_that_these_are_equal(\n  a_is_less_than_or_equal_to_b(1, 1),\n  True\n)",
+        "detail": "027_comparison",
+        "documentation": {}
+    },
+    {
+        "label": "a_is_greater_than_or_equal_to_b",
+        "kind": 2,
+        "importPath": "027_comparison",
+        "description": "027_comparison",
+        "peekOfCode": "def a_is_greater_than_or_equal_to_b(a, b):\n  return a >= b\ncheck_that_these_are_equal(\n  a_is_greater_than_or_equal_to_b(1, 2),\n  False\n)\ncheck_that_these_are_equal(\n  a_is_greater_than_or_equal_to_b(1, 1),\n  True\n)",
+        "detail": "027_comparison",
+        "documentation": {}
+    },
+    {
+        "label": "a_is_not_equal_to_b",
+        "kind": 2,
+        "importPath": "027_comparison",
+        "description": "027_comparison",
+        "peekOfCode": "def a_is_not_equal_to_b(a, b):\n  return a != b\ncheck_that_these_are_equal(\n  a_is_not_equal_to_b(1, 2),\n  True\n)\ncheck_that_these_are_equal(\n  a_is_not_equal_to_b(1, 1),\n  False\n)",
+        "detail": "027_comparison",
+        "documentation": {}
+    },
+    {
+        "label": "a_is_within_b",
+        "kind": 2,
+        "importPath": "027_comparison",
+        "description": "027_comparison",
+        "peekOfCode": "def a_is_within_b(a, b):\n  return a in b\ncheck_that_these_are_equal(\n  a_is_within_b(\"e\", \"hello\"),\n  True\n)\ncheck_that_these_are_equal(\n  a_is_within_b(\"f\", \"hello\"),\n  False\n)",
+        "detail": "027_comparison",
+        "documentation": {}
+    },
+    {
+        "label": "starts_with_x_or_y",
+        "kind": 2,
+        "importPath": "028_logic",
+        "description": "028_logic",
+        "peekOfCode": "def starts_with_x_or_y(the_str):\n  first_letter = the_str[0]\n  #                      VV look at this!\n  if first_letter == \"x\" or first_letter == \"y\":\n    return \"It does!\"\n  else:\n    return \"It does not.\"\n# That `or` operator says \"evaluate to true if the condition\n# on the left, or on the right, or both evaluate to true\".\n# Operators like `or` are called 'logical' or 'Boolean'",
+        "detail": "028_logic",
+        "documentation": {}
+    },
+    {
+        "label": "a_or_b",
+        "kind": 2,
+        "importPath": "028_logic",
+        "description": "028_logic",
+        "peekOfCode": "def a_or_b(a, b):\n  return a or b\ncheck_that_these_are_equal(a_or_b(True, True), True)\ncheck_that_these_are_equal(a_or_b(True, False), True)\ncheck_that_these_are_equal(a_or_b(False, True), True)\ncheck_that_these_are_equal(a_or_b(False, False), False)\n# == Exercise One ==\nprint(\"\")\nprint(\"Function: a_and_b\")\ndef a_and_b(a, b):",
+        "detail": "028_logic",
+        "documentation": {}
+    },
+    {
+        "label": "a_and_b",
+        "kind": 2,
+        "importPath": "028_logic",
+        "description": "028_logic",
+        "peekOfCode": "def a_and_b(a, b):\n  return a and b\ncheck_that_these_are_equal(a_and_b(True, True), True)\ncheck_that_these_are_equal(a_and_b(True, False), False)\ncheck_that_these_are_equal(a_and_b(False, True), False)\ncheck_that_these_are_equal(a_and_b(False, False), False)\n# == Exercise Two ==\nprint(\"\")\nprint(\"Function: not_a\")\n# Note that this operator only takes one value. The operator",
+        "detail": "028_logic",
+        "documentation": {}
+    },
+    {
+        "label": "not_a",
+        "kind": 2,
+        "importPath": "028_logic",
+        "description": "028_logic",
+        "peekOfCode": "def not_a(a):\n  return not a\ncheck_that_these_are_equal(not_a(True), False)\ncheck_that_these_are_equal(not_a(False), True)\n# Perhaps you could have guessed those... but now you know\n# for sure! When you're done, move on to 029_lists.py",
+        "detail": "028_logic",
+        "documentation": {}
+    },
+    {
+        "label": "my_favourite_numbers",
+        "kind": 5,
+        "importPath": "029_lists",
+        "description": "029_lists",
+        "peekOfCode": "my_favourite_numbers = [1, 3, 5, 7, 9]\nmy_friends = [\"Victoria\", \"Mel\", \"Melanie\", \"Emma\"]\n# Notice how the square brackets `[` and `]` tell Python\n# that this is a list, and how the commas separate the items\n# in the list.\n# It's common to forget these commas so add it to your list\n# of things to check when your code doesn't work.\n# @TASK Try making your own here:\nyour_list = [\"Victor\", \"Niamh\", \"Thay\"]\nprint(your_list)",
+        "detail": "029_lists",
+        "documentation": {}
+    },
+    {
+        "label": "my_friends",
+        "kind": 5,
+        "importPath": "029_lists",
+        "description": "029_lists",
+        "peekOfCode": "my_friends = [\"Victoria\", \"Mel\", \"Melanie\", \"Emma\"]\n# Notice how the square brackets `[` and `]` tell Python\n# that this is a list, and how the commas separate the items\n# in the list.\n# It's common to forget these commas so add it to your list\n# of things to check when your code doesn't work.\n# @TASK Try making your own here:\nyour_list = [\"Victor\", \"Niamh\", \"Thay\"]\nprint(your_list)\n# @TASK and print it out by running:",
+        "detail": "029_lists",
+        "documentation": {}
+    },
+    {
+        "label": "your_list",
+        "kind": 5,
+        "importPath": "029_lists",
+        "description": "029_lists",
+        "peekOfCode": "your_list = [\"Victor\", \"Niamh\", \"Thay\"]\nprint(your_list)\n# @TASK and print it out by running:\n#   python 029_lists.py\n# When you're done, move on to 030_list_indexing.py",
+        "detail": "029_lists",
+        "documentation": {}
+    },
+    {
+        "label": "get_first_item",
+        "kind": 2,
+        "importPath": "030_list_indexing",
+        "description": "030_list_indexing",
+        "peekOfCode": "def get_first_item(the_list):\n  # Return the first item of the list\n  return the_list[0]\ncheck_that_these_are_equal(\n  get_first_item([\"a\", \"b\", \"c\", \"d\", \"e\"]),\n  \"a\"\n)\ncheck_that_these_are_equal(\n  get_first_item([34, 44, 54, 64]),\n  34",
+        "detail": "030_list_indexing",
+        "documentation": {}
+    },
+    {
+        "label": "get_last_item",
+        "kind": 2,
+        "importPath": "030_list_indexing",
+        "description": "030_list_indexing",
+        "peekOfCode": "def get_last_item(the_list):\n  # Return the last item of the list\n  return the_list[-1]\ncheck_that_these_are_equal(\n  get_last_item([\"a\", \"b\", \"c\", \"d\", \"e\"]),\n  \"e\"\n)\ncheck_that_these_are_equal(\n  get_last_item([34, 44, 54, 64]),\n  64",
+        "detail": "030_list_indexing",
+        "documentation": {}
+    },
+    {
+        "label": "get_nth_item",
+        "kind": 2,
+        "importPath": "030_list_indexing",
+        "description": "030_list_indexing",
+        "peekOfCode": "def get_nth_item(the_list, n):\n  # Return the item of the list at the specified index\n  return the_list[n]\ncheck_that_these_are_equal(\n  get_nth_item([\"a\", \"b\", \"c\", \"d\", \"e\"], 3),\n  \"d\"\n)\ncheck_that_these_are_equal(\n  get_nth_item([34, 44, 54, 64], 1),\n  44",
+        "detail": "030_list_indexing",
+        "documentation": {}
+    },
+    {
+        "label": "get_items_between_one_and_three",
+        "kind": 2,
+        "importPath": "030_list_indexing",
+        "description": "030_list_indexing",
+        "peekOfCode": "def get_items_between_one_and_three(the_list):\n  # Return the section of the list between indexes one\n  # and three\n  return the_list[1:3]\ncheck_that_these_are_equal(\n  get_items_between_one_and_three([\"a\", \"b\", \"c\", \"d\", \"e\"]),\n  [\"b\", \"c\"]\n)\ncheck_that_these_are_equal(\n  get_items_between_one_and_three([34, 44, 54, 64]),",
+        "detail": "030_list_indexing",
+        "documentation": {}
+    },
+    {
+        "label": "my_list",
+        "kind": 5,
+        "importPath": "030_list_indexing",
+        "description": "030_list_indexing",
+        "peekOfCode": "my_list = [44, 35, 21, 63]\nmy_list[0]   # Evaluates to 44\nmy_list[-1]  # Evaluates to 63\nmy_list[1:3] # Evaluates to [35, 21]\n# To show you how similar they are, here are some very\n# similar exercises as in the strings material. You may find\n# the exact same code works for strings and lists!\n# @TASK: Complete the following exercises. You can check\n# them as you go by running: python 030_list_indexing.py\n# == Exercise One ==",
+        "detail": "030_list_indexing",
+        "documentation": {}
+    },
+    {
+        "label": "append_item_to_list",
+        "kind": 2,
+        "importPath": "031_list_modification",
+        "description": "031_list_modification",
+        "peekOfCode": "def append_item_to_list(the_list, item):\n  the_list.append(item)\n  return the_list\ncheck_that_these_are_equal(\n  append_item_to_list(['a', 'b'], 'c'), ['a', 'b', 'c'])\ncheck_that_these_are_equal(\n  append_item_to_list([3, 1], 6), [3, 1, 6])\n# == Exercise One ==\nprint(\"\")\nprint(\"Function: remove_item_from_list\")",
+        "detail": "031_list_modification",
+        "documentation": {}
+    },
+    {
+        "label": "remove_item_from_list",
+        "kind": 2,
+        "importPath": "031_list_modification",
+        "description": "031_list_modification",
+        "peekOfCode": "def remove_item_from_list(the_list, item):\n  the_list.remove(item)\n  return the_list\n# If you have trouble here, make sure you're returning the\n# list after removing the item.\ncheck_that_these_are_equal(\n  remove_item_from_list(['a', 'b'], 'b'), ['a'])\ncheck_that_these_are_equal(\n  remove_item_from_list([3, 1], 3), [1])\n# == Exercise Two ==",
+        "detail": "031_list_modification",
+        "documentation": {}
+    },
+    {
+        "label": "count_items_in_list",
+        "kind": 2,
+        "importPath": "031_list_modification",
+        "description": "031_list_modification",
+        "peekOfCode": "def count_items_in_list(the_list, item):\n  return the_list.count(item)\n# Whereas here you'll need to return the result of the\n# function you call, not the list.\ncheck_that_these_are_equal(\n  count_items_in_list(['a', 'b', 'a'], 'a'), 2)\ncheck_that_these_are_equal(\n  count_items_in_list([4, 1, 4, 4], 4), 3)\n# == Exercise Three ==\nprint(\"\")",
+        "detail": "031_list_modification",
+        "documentation": {}
+    },
+    {
+        "label": "get_index_of_item",
+        "kind": 2,
+        "importPath": "031_list_modification",
+        "description": "031_list_modification",
+        "peekOfCode": "def get_index_of_item(the_list, item):\n  return the_list.index(item)\ncheck_that_these_are_equal(\n  get_index_of_item(['a', 'b', 'c'], 'b'), 1)\ncheck_that_these_are_equal(\n  get_index_of_item([33, 44, 55], 55), 2)\n# == Exercise Four ==\nprint(\"\")\nprint(\"Function: reverse_list\")\ndef reverse_list(the_list):",
+        "detail": "031_list_modification",
+        "documentation": {}
+    },
+    {
+        "label": "reverse_list",
+        "kind": 2,
+        "importPath": "031_list_modification",
+        "description": "031_list_modification",
+        "peekOfCode": "def reverse_list(the_list):\n  the_list.reverse()\n  return the_list\ncheck_that_these_are_equal(\n  reverse_list(['a', 'b', 'c']), ['c', 'b', 'a'])\ncheck_that_these_are_equal(\n  reverse_list([33, 44, 55]), [55, 44, 33])\n# == Exercise Five ==\nprint(\"\")\nprint(\"Function: list_length\")",
+        "detail": "031_list_modification",
+        "documentation": {}
+    },
+    {
+        "label": "list_length",
+        "kind": 2,
+        "importPath": "031_list_modification",
+        "description": "031_list_modification",
+        "peekOfCode": "def list_length(the_list):\n  return len(the_list)\ncheck_that_these_are_equal(\n  list_length(['a', 'b', 'c']), 3)\ncheck_that_these_are_equal(\n  list_length([33, 44]), 2)\n# When you're done, move on to 032_while_loops.py",
+        "detail": "031_list_modification",
+        "documentation": {}
+    },
+    {
+        "label": "my_list",
+        "kind": 5,
+        "importPath": "031_list_modification",
+        "description": "031_list_modification",
+        "peekOfCode": "my_list = [\"a\", \"b\", \"c\"]\nmy_list.append(\"d\")\nprint(my_list) # my_list is now [\"a\", \"b\", \"c\", \"d\"]\n# The effect is straightforward enough — it adds an item to\n# the list.\n# But there is an unusual aspect to this code.\n# Consider this code with numbers:\nmy_num = 3\nmy_num + 1\nprint(my_num) # my_num is still 3",
+        "detail": "031_list_modification",
+        "documentation": {}
+    },
+    {
+        "label": "my_num",
+        "kind": 5,
+        "importPath": "031_list_modification",
+        "description": "031_list_modification",
+        "peekOfCode": "my_num = 3\nmy_num + 1\nprint(my_num) # my_num is still 3\n# `my_num` stays `3` here because in the above code we're\n# not assigning the result of the expression to a variable.\n# However, in our list code:\nmy_list = [\"a\", \"b\", \"c\"]\nmy_list.append(\"d\")\nprint(my_list) # my_list is now [\"a\", \"b\", \"c\", \"d\"]\n# `my_list` gets magically changed without an assignment!",
+        "detail": "031_list_modification",
+        "documentation": {}
+    },
+    {
+        "label": "my_list",
+        "kind": 5,
+        "importPath": "031_list_modification",
+        "description": "031_list_modification",
+        "peekOfCode": "my_list = [\"a\", \"b\", \"c\"]\nmy_list.append(\"d\")\nprint(my_list) # my_list is now [\"a\", \"b\", \"c\", \"d\"]\n# `my_list` gets magically changed without an assignment!\n# The behaviour of append is to modify the list 'in-place'.\n# Don't worry too much about this right now. If you have any\n# trouble with it, you can always create a new list by using\n# the `copy` method.\nmy_list = [\"a\", \"b\", \"c\"]\nmy_copy = my_list.copy()",
+        "detail": "031_list_modification",
+        "documentation": {}
+    },
+    {
+        "label": "my_list",
+        "kind": 5,
+        "importPath": "031_list_modification",
+        "description": "031_list_modification",
+        "peekOfCode": "my_list = [\"a\", \"b\", \"c\"]\nmy_copy = my_list.copy()\nmy_copy.append(\"d\")\nprint(my_list) # my_list is still [\"a\", \"b\", \"c\"]\nprint(my_copy) # my_copy is now   [\"a\", \"b\", \"c\", \"d\"]\n# But mostly you won't need to worry about it just yet.\n# @TASK Do these exercises.\n# You'll need to research the right methods to use. Here's\n# a useful resource: https://docs.python.org/3/tutorial/datastructures.html\n# I've started it for you.",
+        "detail": "031_list_modification",
+        "documentation": {}
+    },
+    {
+        "label": "my_copy",
+        "kind": 5,
+        "importPath": "031_list_modification",
+        "description": "031_list_modification",
+        "peekOfCode": "my_copy = my_list.copy()\nmy_copy.append(\"d\")\nprint(my_list) # my_list is still [\"a\", \"b\", \"c\"]\nprint(my_copy) # my_copy is now   [\"a\", \"b\", \"c\", \"d\"]\n# But mostly you won't need to worry about it just yet.\n# @TASK Do these exercises.\n# You'll need to research the right methods to use. Here's\n# a useful resource: https://docs.python.org/3/tutorial/datastructures.html\n# I've started it for you.\nprint(\"\")",
+        "detail": "031_list_modification",
+        "documentation": {}
+    },
+    {
+        "label": "add_cats_repeatedly",
+        "kind": 2,
+        "importPath": "032_while_loops",
+        "description": "032_while_loops",
+        "peekOfCode": "def add_cats_repeatedly(word_list, count):\n  i = 0\n  while i < count:\n    word_list.append(\"cats\")\n    i = i + 1\n  return word_list\ncheck_that_these_are_equal(\n  add_cats_repeatedly([], 3), ['cats', 'cats', 'cats'])\ncheck_that_these_are_equal(\n  add_cats_repeatedly(['dogs'], 2), ['dogs', 'cats', 'cats'])",
+        "detail": "032_while_loops",
+        "documentation": {}
+    },
+    {
+        "label": "my_name",
+        "kind": 5,
+        "importPath": "032_while_loops",
+        "description": "032_while_loops",
+        "peekOfCode": "my_name = \"Kay\"\nif my_name == \"Kay\":\n  print(\"Hello, Kay!\")\nelse:\n  print(\"Hello, you!\")\n# The `if` is part of a category of programming tools known\n# as 'control flow'. These are tools that control the flow\n# of execution in a program. The `if` controls which lines\n# get executed.\n# There's another kind of control flow: the loop. It comes",
+        "detail": "032_while_loops",
+        "documentation": {}
+    },
+    {
+        "label": "i",
+        "kind": 5,
+        "importPath": "032_while_loops",
+        "description": "032_while_loops",
+        "peekOfCode": "i = 0 # We call this the counter variable\nwhile i < 10:\n  print(f\"The number is now {i}\")\n  i = i + 1\n# @TASK: run this program and see what it does.\n# The `while` loop is like an `if`, in that it takes an\n# expression that evaluates to True or False, and then\n# executes its block of code if the condition is True.\n# However, the `while` loop is different in that it keeps\n# repeatedly executing the block for as long as the",
+        "detail": "032_while_loops",
+        "documentation": {}
+    },
+    {
+        "label": "print_numbers_in_range",
+        "kind": 2,
+        "importPath": "033_for_loops",
+        "description": "033_for_loops",
+        "peekOfCode": "def print_numbers_in_range():\n  for number in range(0, 10):\n    print(f\"This number is {number}\")\n# `range` more or less creates a list of the numbers from\n# its first parameter to one below its last parameter. So:\n# the numbers 0-9.\n# Compare this to the `while` version which does the same\n# thing:\ndef print_numbers_in_range_with_a_while():\n  number = 0",
+        "detail": "033_for_loops",
+        "documentation": {}
+    },
+    {
+        "label": "print_numbers_in_range_with_a_while",
+        "kind": 2,
+        "importPath": "033_for_loops",
+        "description": "033_for_loops",
+        "peekOfCode": "def print_numbers_in_range_with_a_while():\n  number = 0\n  while number < 10:\n    print(f\"This number is {number}\")\n    number = number + 1\n# The `for` and `range` version is a bit more concise.\n# You're probably expecting an exercise now. But not just\n# yet. Lists and loops are very powerful tools and we're\n# going to go through three different ways of using them:\n# * Summarising: Using a loop to distil a list into one",
+        "detail": "033_for_loops",
+        "documentation": {}
+    },
+    {
+        "label": "add_up_numbers",
+        "kind": 2,
+        "importPath": "034_summarising",
+        "description": "034_summarising",
+        "peekOfCode": "def add_up_numbers(numbers):\n  sum_list = 0\n  for number in numbers:\n    sum_list = sum_list + number\n  return sum_list\ncheck_that_these_are_equal(\n  add_up_numbers([1, 2, 3, 4]), 10)\ncheck_that_these_are_equal(\n  add_up_numbers([2, 3, 4, 5]), 14)\n# When you're done, move on to 035_mapping.py",
+        "detail": "034_summarising",
+        "documentation": {}
+    },
+    {
+        "label": "lines",
+        "kind": 5,
+        "importPath": "034_summarising",
+        "description": "034_summarising",
+        "peekOfCode": "lines = [\n  \"My King,\",\n  \"I need another five years.\",\n  \"Then your crab will be ready.\",\n  \"Sincerely,\",\n  \"Chuang-tzu\"\n]\ntext = \"\" # This is called the accumulator variable\n          # It's where we put our summary value\n          # It starts off blank.",
+        "detail": "034_summarising",
+        "documentation": {}
+    },
+    {
+        "label": "text",
+        "kind": 5,
+        "importPath": "034_summarising",
+        "description": "034_summarising",
+        "peekOfCode": "text = \"\" # This is called the accumulator variable\n          # It's where we put our summary value\n          # It starts off blank.\nfor line in lines: # We go through lines item by item\n  # Inside this loop, `line` is the individual line\n  text = text + line # We append the line to our text\n  text = text + \"\\n\" # We add an `\\n`, which means 'new line'\nprint(text)\n# We have taken the list of strings and joined them all\n# together into one text (the accumulator) with some new",
+        "detail": "034_summarising",
+        "documentation": {}
+    },
+    {
+        "label": "another_text",
+        "kind": 5,
+        "importPath": "034_summarising",
+        "description": "034_summarising",
+        "peekOfCode": "another_text = \"\\n\".join(lines)\n# Uncomment this next line if you want to see it\nprint(another_text)\n# `join` is actually little smarter — it only adds the `\\n`\n# character between lines, not at the end also.\n# @TASK: Complete this exercise\nprint(\"\")\nprint(\"Function: add_up_numbers\")\n# Add up all the numbers in the list\ndef add_up_numbers(numbers):",
+        "detail": "034_summarising",
+        "documentation": {}
+    },
+    {
+        "label": "add_one_hundred_to_numbers",
+        "kind": 2,
+        "importPath": "035_mapping",
+        "description": "035_mapping",
+        "peekOfCode": "def add_one_hundred_to_numbers(numbers):\n  new_list = []\n  for number in numbers:\n    number = number + 100\n    new_list.append(number)\n  return new_list\ncheck_that_these_are_equal(\n  add_one_hundred_to_numbers([1, 2, 3, 4]), [101, 102, 103, 104])\ncheck_that_these_are_equal(\n  add_one_hundred_to_numbers([2, 3, 4, 5]), [102, 103, 104, 105])",
+        "detail": "035_mapping",
+        "documentation": {}
+    },
+    {
+        "label": "words",
+        "kind": 5,
+        "importPath": "035_mapping",
+        "description": "035_mapping",
+        "peekOfCode": "words = ['I', 'need', 'another', 'five', 'years']\nfirst_letters = [] # This is our accumulator again\nfor word in words: # We go through each word\n  first_letter = word[0] # Get the first letter\n  # And append it to our accumulator list:\n  first_letters.append(first_letter)\nprint(words)\nprint(first_letters)\n# @TASK: run this program to see what it does.\n# @TASK: Complete this exercise.",
+        "detail": "035_mapping",
+        "documentation": {}
+    },
+    {
+        "label": "first_letters",
+        "kind": 5,
+        "importPath": "035_mapping",
+        "description": "035_mapping",
+        "peekOfCode": "first_letters = [] # This is our accumulator again\nfor word in words: # We go through each word\n  first_letter = word[0] # Get the first letter\n  # And append it to our accumulator list:\n  first_letters.append(first_letter)\nprint(words)\nprint(first_letters)\n# @TASK: run this program to see what it does.\n# @TASK: Complete this exercise.\nprint(\"\")",
+        "detail": "035_mapping",
+        "documentation": {}
+    },
+    {
+        "label": "only_positive_numbers",
+        "kind": 2,
+        "importPath": "036_filtering",
+        "description": "036_filtering",
+        "peekOfCode": "def only_positive_numbers(numbers):\n  positive_numbers = []\n  for number in numbers:\n    if number > 0:\n      positive_numbers.append(number)\n  return positive_numbers\ncheck_that_these_are_equal(\n  only_positive_numbers([-4, 4, -3, 3]), [4, 3])\ncheck_that_these_are_equal(\n  only_positive_numbers([-100]), [])",
+        "detail": "036_filtering",
+        "documentation": {}
+    },
+    {
+        "label": "raw_ages",
+        "kind": 5,
+        "importPath": "036_filtering",
+        "description": "036_filtering",
+        "peekOfCode": "raw_ages = [32, 40, None, 1, 32]\nclean_ages = [] # This is our accumulator again\nfor age in raw_ages: # We go through each age\n  # We combine a for with an if to remove 'None' items\n  if age != None:\n    clean_ages.append(age)\nprint(raw_ages)\nprint(clean_ages)\n# @TASK: run this program to see what it does.\n# @TASK: Complete this exercise.",
+        "detail": "036_filtering",
+        "documentation": {}
+    },
+    {
+        "label": "clean_ages",
+        "kind": 5,
+        "importPath": "036_filtering",
+        "description": "036_filtering",
+        "peekOfCode": "clean_ages = [] # This is our accumulator again\nfor age in raw_ages: # We go through each age\n  # We combine a for with an if to remove 'None' items\n  if age != None:\n    clean_ages.append(age)\nprint(raw_ages)\nprint(clean_ages)\n# @TASK: run this program to see what it does.\n# @TASK: Complete this exercise.\nprint(\"\")",
+        "detail": "036_filtering",
+        "documentation": {}
+    },
+    {
+        "label": "my_dictionary",
+        "kind": 5,
+        "importPath": "037_dicts",
+        "description": "037_dicts",
+        "peekOfCode": "my_dictionary = {\n  \"String\": \"A sequence of characters\",\n  \"List\": \"A sequence of any item\",\n  \"Dictionary\": \"A collection of keys mapped to values\"\n}\n# Note that:\n#\n# * We use braces `{` and `}` to tell Python that this is a\n#   dictionary\n# * We use commas `,` to separate pairs",
+        "detail": "037_dicts",
+        "documentation": {}
+    },
+    {
+        "label": "count_words_by_length",
+        "kind": 2,
+        "importPath": "038_dict_operations",
+        "description": "038_dict_operations",
+        "peekOfCode": "def count_words_by_length(words):\n    words_by_len = {}\n    for word in words:\n        if len(word) in words_by_len:\n            words_by_len[len(word)] += 1\n        else:\n            words_by_len[len(word)] = 1\n    return words_by_len\ncheck_that_these_are_equal(\n  count_words_by_length([\"hat\", \"cat\", \"I\", \"bird\"]),",
+        "detail": "038_dict_operations",
+        "documentation": {}
+    },
+    {
+        "label": "text",
+        "kind": 5,
+        "importPath": "038_dict_operations",
+        "description": "038_dict_operations",
+        "peekOfCode": "text = \"the quick brush jumped over the lazy crab\"\n# We'll use a dictionary to keep count of the letters we've\n# seen. We'll start with an empty dictionary:\nletter_counts = {}\n# The keys will be the letters, and the values will be the\n# number of that letter we've seen.\n# We'll use a for loop to iterate over each letter in the\n# string:\nfor letter in text:\n  # We'll check if the letter is already in our dictionary",
+        "detail": "038_dict_operations",
+        "documentation": {}
+    },
+    {
+        "label": "letter_counts",
+        "kind": 5,
+        "importPath": "038_dict_operations",
+        "description": "038_dict_operations",
+        "peekOfCode": "letter_counts = {}\n# The keys will be the letters, and the values will be the\n# number of that letter we've seen.\n# We'll use a for loop to iterate over each letter in the\n# string:\nfor letter in text:\n  # We'll check if the letter is already in our dictionary\n  # of counts. We can do this using the `not in` operator.\n  if letter not in letter_counts:\n    # If it isn't, we'll add it to the dictionary with a",
+        "detail": "038_dict_operations",
+        "documentation": {}
+    },
+    {
+        "label": "generate_frequency_graph",
+        "kind": 2,
+        "importPath": "039_challenge_1_example",
+        "description": "039_challenge_1_example",
+        "peekOfCode": "def generate_frequency_graph(numbers):\n  integers = get_only_integers(numbers)\n  positive_integers = convert_negatives_to_positives(integers)\n  number_frequency = calc_frequency_of_numbers(positive_integers)\n  graph = format_graph(number_frequency)\n  return graph\n# Here we'll use filtering to get rid of the None values\ndef get_only_integers(numbers):\n  integers = []\n  for number in numbers:",
+        "detail": "039_challenge_1_example",
+        "documentation": {}
+    },
+    {
+        "label": "get_only_integers",
+        "kind": 2,
+        "importPath": "039_challenge_1_example",
+        "description": "039_challenge_1_example",
+        "peekOfCode": "def get_only_integers(numbers):\n  integers = []\n  for number in numbers:\n    if number != None:\n      integers.append(number)\n  return integers\n# Here we'll use mapping to convert negative numbers to\n# positive numbers\ndef convert_negatives_to_positives(numbers):\n  positive_integers = []",
+        "detail": "039_challenge_1_example",
+        "documentation": {}
+    },
+    {
+        "label": "convert_negatives_to_positives",
+        "kind": 2,
+        "importPath": "039_challenge_1_example",
+        "description": "039_challenge_1_example",
+        "peekOfCode": "def convert_negatives_to_positives(numbers):\n  positive_integers = []\n  for number in numbers:\n    if number < 0:\n      # Note that a negative number multiplied by -1\n      # will be its positive equivalent\n      positive_integers.append(number * -1)\n    else:\n      positive_integers.append(number)\n  return positive_integers",
+        "detail": "039_challenge_1_example",
+        "documentation": {}
+    },
+    {
+        "label": "calc_frequency_of_numbers",
+        "kind": 2,
+        "importPath": "039_challenge_1_example",
+        "description": "039_challenge_1_example",
+        "peekOfCode": "def calc_frequency_of_numbers(numbers):\n  number_frequency = {}\n  for number in numbers:\n    if number not in number_frequency:\n      number_frequency[number] = 1\n    else:\n      number_frequency[number] += 1\n  return number_frequency\n# Here we'll use summarising and mapping in the same loop to\n# format the graph.",
+        "detail": "039_challenge_1_example",
+        "documentation": {}
+    },
+    {
+        "label": "format_graph",
+        "kind": 2,
+        "importPath": "039_challenge_1_example",
+        "description": "039_challenge_1_example",
+        "peekOfCode": "def format_graph(number_frequency):\n  graph = \"\"\n  for number in number_frequency:\n    # Note the cool use of 'string multiplication' here!\n    # 'x' * 3 will give you 'xxx'\n    graph += f\"{number}: {'x' * number_frequency[number]}\\n\"\n  return graph\n# Now let's use it!\nprint(generate_frequency_graph(example_numbers))\n# @TASK Run this file to see the result.",
+        "detail": "039_challenge_1_example",
+        "documentation": {}
+    },
+    {
+        "label": "example_numbers",
+        "kind": 5,
+        "importPath": "039_challenge_1_example",
+        "description": "039_challenge_1_example",
+        "peekOfCode": "example_numbers = [1, 2, 3, -2, -2, 2, None, -3, 4, 4, None, 3, 3, 2, 2, 1]\n# Desired output:\n# 1: xx\n# 2: xxxxxx\n# 3: xxxx\n# 4: xx\n# First I'll show you the function that will combine all\n# the other functions together to create the graph.\n# This will give you an idea of the flow of the program.\ndef generate_frequency_graph(numbers):",
+        "detail": "039_challenge_1_example",
+        "documentation": {}
+    },
+    {
+        "label": "report_long_words",
+        "kind": 2,
+        "importPath": "040_challenge_1_exercise",
+        "description": "040_challenge_1_exercise",
+        "peekOfCode": "def report_long_words(words):\n  outcome = \"These words are quite long: \"\n  long_words = []\n  for word in words:\n    if \"-\" not in word:\n      if 10 < len(word) < 15:\n        long_words.append(word)\n      elif len(word) > 15:\n        long_words.append(word[0:15] + \"...\")\n  if long_words:",
+        "detail": "040_challenge_1_exercise",
+        "documentation": {}
+    },
+    {
+        "label": "print_board",
+        "kind": 2,
+        "importPath": "041_challenge_2_example",
+        "description": "041_challenge_2_example",
+        "peekOfCode": "def print_board(board):\n  formatted_rows = []\n  for row in board:\n    formatted_rows.append(\" \".join(row))\n  grid = \"\\n\".join(formatted_rows)\n  return grid\n# Let's test it out:\nstarter_board = [\n  [\".\", \".\", \".\"],\n  [\".\", \".\", \".\"],",
+        "detail": "041_challenge_2_example",
+        "documentation": {}
+    },
+    {
+        "label": "make_move",
+        "kind": 2,
+        "importPath": "041_challenge_2_example",
+        "description": "041_challenge_2_example",
+        "peekOfCode": "def make_move(board, row, column, player):\n  board[row][column] = player\n  return board\n# And try it out:\nprint(\"After a move:\")\nprint(print_board(make_move(starter_board, 0, 0, \"X\")))\n# Now let's write a few functions to check if the game is\n# over:\n# This function will extract three cells from the board\ndef get_cells(board, coord_1, coord_2, coord_3):",
+        "detail": "041_challenge_2_example",
+        "documentation": {}
+    },
+    {
+        "label": "get_cells",
+        "kind": 2,
+        "importPath": "041_challenge_2_example",
+        "description": "041_challenge_2_example",
+        "peekOfCode": "def get_cells(board, coord_1, coord_2, coord_3):\n  return [\n    board[coord_1[0]][coord_1[1]],\n    board[coord_2[0]][coord_2[1]],\n    board[coord_3[0]][coord_3[1]]\n  ]\n# This function will check if the group is fully placed\n# with player marks, no empty spaces.\ndef is_group_complete(board, coord_1, coord_2, coord_3):\n  cells = get_cells(board, coord_1, coord_2, coord_3)",
+        "detail": "041_challenge_2_example",
+        "documentation": {}
+    },
+    {
+        "label": "is_group_complete",
+        "kind": 2,
+        "importPath": "041_challenge_2_example",
+        "description": "041_challenge_2_example",
+        "peekOfCode": "def is_group_complete(board, coord_1, coord_2, coord_3):\n  cells = get_cells(board, coord_1, coord_2, coord_3)\n  return \".\" not in cells\n# This function will check if the group is all the same\n# player mark: X X X or O O O\ndef are_all_cells_the_same(board, coord_1, coord_2, coord_3):\n  cells = get_cells(board, coord_1, coord_2, coord_3)\n  return cells[0] == cells[1] and cells[1] == cells[2]\n# We'll make a list of groups to check:\ngroups_to_check = [",
+        "detail": "041_challenge_2_example",
+        "documentation": {}
+    },
+    {
+        "label": "are_all_cells_the_same",
+        "kind": 2,
+        "importPath": "041_challenge_2_example",
+        "description": "041_challenge_2_example",
+        "peekOfCode": "def are_all_cells_the_same(board, coord_1, coord_2, coord_3):\n  cells = get_cells(board, coord_1, coord_2, coord_3)\n  return cells[0] == cells[1] and cells[1] == cells[2]\n# We'll make a list of groups to check:\ngroups_to_check = [\n  # Rows\n  [(0, 0), (0, 1), (0, 2)],\n  [(1, 0), (1, 1), (1, 2)],\n  [(2, 0), (2, 1), (2, 2)],\n  # Columns",
+        "detail": "041_challenge_2_example",
+        "documentation": {}
+    },
+    {
+        "label": "is_game_over",
+        "kind": 2,
+        "importPath": "041_challenge_2_example",
+        "description": "041_challenge_2_example",
+        "peekOfCode": "def is_game_over(board):\n  # We go through our groups\n  for group in groups_to_check:\n    # If any of them are empty, they're clearly not a\n    # winning row, so we skip them.\n    if is_group_complete(board, group[0], group[1], group[2]):\n      if are_all_cells_the_same(board, group[0], group[1], group[2]):\n        return True # We found a winning row!\n        # Note that return also stops the function\n  return False # If we get here, we didn't find a winning row",
+        "detail": "041_challenge_2_example",
+        "documentation": {}
+    },
+    {
+        "label": "play_game",
+        "kind": 2,
+        "importPath": "041_challenge_2_example",
+        "description": "041_challenge_2_example",
+        "peekOfCode": "def play_game():\n  board = [\n    [\".\", \".\", \".\"],\n    [\".\", \".\", \".\"],\n    [\".\", \".\", \".\"]\n  ]\n  player = \"X\"\n  while not is_game_over(board):\n    print(print_board(board))\n    print(\"It's \" + player + \"'s turn.\")",
+        "detail": "041_challenge_2_example",
+        "documentation": {}
+    },
+    {
+        "label": "a_list_of_lists",
+        "kind": 5,
+        "importPath": "041_challenge_2_example",
+        "description": "041_challenge_2_example",
+        "peekOfCode": "a_list_of_lists = [\n  [1, 2, 3],\n  [4, 5, 6],\n  [7, 8, 9]\n]\n# And to get items out we index in twice:\na_list_of_lists[0][0] # Evaluates to 1\na_list_of_lists[0][1] # Evaluates to 2\na_list_of_lists[0][2] # Evaluates to 3\na_list_of_lists[1][0] # Evaluates to 4",
+        "detail": "041_challenge_2_example",
+        "documentation": {}
+    },
+    {
+        "label": "completed_board",
+        "kind": 5,
+        "importPath": "041_challenge_2_example",
+        "description": "041_challenge_2_example",
+        "peekOfCode": "completed_board = [\n  [\"X\", \"O\", \"X\"],\n  [\"O\", \"X\", \"O\"],\n  [\"O\", \"X\", \"O\"]\n]\n# We're going to implement a little game. We'll need three\n# functions:\n# 1. A function to format the board for the user.\n# 2. A function to make a move.\n# 3. A function to check if the game is over.",
+        "detail": "041_challenge_2_example",
+        "documentation": {}
+    },
+    {
+        "label": "starter_board",
+        "kind": 5,
+        "importPath": "041_challenge_2_example",
+        "description": "041_challenge_2_example",
+        "peekOfCode": "starter_board = [\n  [\".\", \".\", \".\"],\n  [\".\", \".\", \".\"],\n  [\".\", \".\", \".\"]\n]\nprint(\"Our starting board:\")\nprint(print_board(starter_board))\n# Now let's write a function to make a move:\ndef make_move(board, row, column, player):\n  board[row][column] = player",
+        "detail": "041_challenge_2_example",
+        "documentation": {}
+    },
+    {
+        "label": "groups_to_check",
+        "kind": 5,
+        "importPath": "041_challenge_2_example",
+        "description": "041_challenge_2_example",
+        "peekOfCode": "groups_to_check = [\n  # Rows\n  [(0, 0), (0, 1), (0, 2)],\n  [(1, 0), (1, 1), (1, 2)],\n  [(2, 0), (2, 1), (2, 2)],\n  # Columns\n  [(0, 0), (1, 0), (2, 0)],\n  [(0, 1), (1, 1), (2, 1)],\n  [(0, 2), (1, 2), (2, 2)],\n  # Diagonals",
+        "detail": "041_challenge_2_example",
+        "documentation": {}
+    },
+    {
+        "label": "play_game",
+        "kind": 2,
+        "importPath": "042_challenge_2_exercise",
+        "description": "042_challenge_2_exercise",
+        "peekOfCode": "def play_game():\n  board = [\n    [\".\", \".\", \".\"],\n    [\".\", \".\", \".\"],\n    [\".\", \".\", \".\"]\n  ]\n  player = \"X\"\n  while not is_game_over(board):\n    print(print_board(board))\n    print(\"It's \" + player + \"'s turn.\")",
+        "detail": "042_challenge_2_exercise",
+        "documentation": {}
+    },
+    {
+        "label": "print_board",
+        "kind": 2,
+        "importPath": "042_challenge_2_exercise",
+        "description": "042_challenge_2_exercise",
+        "peekOfCode": "def print_board(board):\n  formatted_rows = []\n  for row in board:\n    formatted_rows.append(\" \".join(row))\n  grid = \"\\n\".join(formatted_rows)\n  return grid\ndef make_move(board, row, column, player):\n  while board[row][column] != \".\":\n    print(\"This position is already taken, take another position.\")\n    row = int(input(\"Enter a row: \"))",
+        "detail": "042_challenge_2_exercise",
+        "documentation": {}
+    },
+    {
+        "label": "make_move",
+        "kind": 2,
+        "importPath": "042_challenge_2_exercise",
+        "description": "042_challenge_2_exercise",
+        "peekOfCode": "def make_move(board, row, column, player):\n  while board[row][column] != \".\":\n    print(\"This position is already taken, take another position.\")\n    row = int(input(\"Enter a row: \"))\n    column = int(input(\"Enter a column: \"))\n  board[row][column] = player\n  return board\n# This function will extract three cells from the board\ndef get_cells(board, coord_1, coord_2, coord_3):\n  return [",
+        "detail": "042_challenge_2_exercise",
+        "documentation": {}
+    },
+    {
+        "label": "get_cells",
+        "kind": 2,
+        "importPath": "042_challenge_2_exercise",
+        "description": "042_challenge_2_exercise",
+        "peekOfCode": "def get_cells(board, coord_1, coord_2, coord_3):\n  return [\n    board[coord_1[0]][coord_1[1]],\n    board[coord_2[0]][coord_2[1]],\n    board[coord_3[0]][coord_3[1]]\n  ]\n# This function will check if the group is fully placed\n# with player marks, no empty spaces.\ndef is_group_complete(board, coord_1, coord_2, coord_3):\n  cells = get_cells(board, coord_1, coord_2, coord_3)",
+        "detail": "042_challenge_2_exercise",
+        "documentation": {}
+    },
+    {
+        "label": "is_group_complete",
+        "kind": 2,
+        "importPath": "042_challenge_2_exercise",
+        "description": "042_challenge_2_exercise",
+        "peekOfCode": "def is_group_complete(board, coord_1, coord_2, coord_3):\n  cells = get_cells(board, coord_1, coord_2, coord_3)\n  return \".\" not in cells\n# This function will check if the group is all the same\n# player mark: X X X or O O O\ndef are_all_cells_the_same(board, coord_1, coord_2, coord_3):\n  cells = get_cells(board, coord_1, coord_2, coord_3)\n  return cells[0] == cells[1] and cells[1] == cells[2]\n# We'll make a list of groups to check:\ngroups_to_check = [",
+        "detail": "042_challenge_2_exercise",
+        "documentation": {}
+    },
+    {
+        "label": "are_all_cells_the_same",
+        "kind": 2,
+        "importPath": "042_challenge_2_exercise",
+        "description": "042_challenge_2_exercise",
+        "peekOfCode": "def are_all_cells_the_same(board, coord_1, coord_2, coord_3):\n  cells = get_cells(board, coord_1, coord_2, coord_3)\n  return cells[0] == cells[1] and cells[1] == cells[2]\n# We'll make a list of groups to check:\ngroups_to_check = [\n  # Rows\n  [(0, 0), (0, 1), (0, 2)],\n  [(1, 0), (1, 1), (1, 2)],\n  [(2, 0), (2, 1), (2, 2)],\n  # Columns",
+        "detail": "042_challenge_2_exercise",
+        "documentation": {}
+    },
+    {
+        "label": "is_game_over",
+        "kind": 2,
+        "importPath": "042_challenge_2_exercise",
+        "description": "042_challenge_2_exercise",
+        "peekOfCode": "def is_game_over(board):\n  # We go through our groups\n  for group in groups_to_check:\n    # If any of them are empty, they're clearly not a\n    # winning row, so we skip them.\n    if is_group_complete(board, group[0], group[1], group[2]):\n      if are_all_cells_the_same(board, group[0], group[1], group[2]):\n        return True # We found a winning row!\n        # Note that return also stops the function\n  return False # If we get here, we didn't find a winning row",
+        "detail": "042_challenge_2_exercise",
+        "documentation": {}
+    },
+    {
+        "label": "groups_to_check",
+        "kind": 5,
+        "importPath": "042_challenge_2_exercise",
+        "description": "042_challenge_2_exercise",
+        "peekOfCode": "groups_to_check = [\n  # Rows\n  [(0, 0), (0, 1), (0, 2)],\n  [(1, 0), (1, 1), (1, 2)],\n  [(2, 0), (2, 1), (2, 2)],\n  # Columns\n  [(0, 0), (1, 0), (2, 0)],\n  [(0, 1), (1, 1), (2, 1)],\n  [(0, 2), (1, 2), (2, 2)],\n  # Diagonals",
+        "detail": "042_challenge_2_exercise",
+        "documentation": {}
+    },
+    {
+        "label": "my_list",
+        "kind": 5,
+        "importPath": "sandbox",
+        "description": "sandbox",
+        "peekOfCode": "my_list = [\"victor\", \"Janete\", \"tHAYANA\", \"NiamH\", \"jInX\"]\noutcome = \"Minha família é composta por: \"\nformated_names = []\nfor name in my_list:\n    formated_names.append(name.capitalize())\noutcome += \", \".join(formated_names[0:-1]) + \" and \" + formated_names[-1]\nprint(outcome)",
+        "detail": "sandbox",
+        "documentation": {}
+    },
+    {
+        "label": "outcome",
+        "kind": 5,
+        "importPath": "sandbox",
+        "description": "sandbox",
+        "peekOfCode": "outcome = \"Minha família é composta por: \"\nformated_names = []\nfor name in my_list:\n    formated_names.append(name.capitalize())\noutcome += \", \".join(formated_names[0:-1]) + \" and \" + formated_names[-1]\nprint(outcome)",
+        "detail": "sandbox",
+        "documentation": {}
+    },
+    {
+        "label": "formated_names",
+        "kind": 5,
+        "importPath": "sandbox",
+        "description": "sandbox",
+        "peekOfCode": "formated_names = []\nfor name in my_list:\n    formated_names.append(name.capitalize())\noutcome += \", \".join(formated_names[0:-1]) + \" and \" + formated_names[-1]\nprint(outcome)",
+        "detail": "sandbox",
+        "documentation": {}
+    }
+]

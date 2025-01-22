@@ -41,11 +41,13 @@ def play_game():
     # We then need to convert it to a number using `int`
     row = int(input("Enter a row: "))
     column = int(input("Enter a column: "))
+  
     board = make_move(board, row, column, player)
     if player == "X":
       player = "O"
     else:
       player = "X"
+    
   print(print_board(board))
   print("Game over!")
 
@@ -57,9 +59,14 @@ def print_board(board):
   return grid
 
 def make_move(board, row, column, player):
+  
+  while board[row][column] != ".":
+    print("This position is already taken, take another position.")
+    row = int(input("Enter a row: "))
+    column = int(input("Enter a column: "))
+  
   board[row][column] = player
   return board
-
 
 # This function will extract three cells from the board
 def get_cells(board, coord_1, coord_2, coord_3):
@@ -68,6 +75,7 @@ def get_cells(board, coord_1, coord_2, coord_3):
     board[coord_2[0]][coord_2[1]],
     board[coord_3[0]][coord_3[1]]
   ]
+
 
 # This function will check if the group is fully placed
 # with player marks, no empty spaces.
@@ -80,6 +88,8 @@ def is_group_complete(board, coord_1, coord_2, coord_3):
 def are_all_cells_the_same(board, coord_1, coord_2, coord_3):
   cells = get_cells(board, coord_1, coord_2, coord_3)
   return cells[0] == cells[1] and cells[1] == cells[2]
+
+
 
 # We'll make a list of groups to check:
 

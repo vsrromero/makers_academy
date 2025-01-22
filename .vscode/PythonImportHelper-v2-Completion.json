@@ -1301,7 +1301,7 @@
         "kind": 2,
         "importPath": "042_challenge_2_exercise",
         "description": "042_challenge_2_exercise",
-        "peekOfCode": "def is_game_over(board):\n  # We go through our groups\n  for group in groups_to_check:\n    # If any of them are empty, they're clearly not a\n    # winning row, so we skip them.\n    if is_group_complete(board, group[0], group[1], group[2]):\n      if are_all_cells_the_same(board, group[0], group[1], group[2]):\n        return True # We found a winning row!\n        # Note that return also stops the function\n  return False # If we get here, we didn't find a winning row",
+        "peekOfCode": "def is_game_over(board):\n  # We go through our groups\n  for group in groups_to_check:\n    # If any of them are empty, they're clearly not a\n    # winning row, so we skip them.\n    if is_group_complete(board, group[0], group[1], group[2]):\n      if are_all_cells_the_same(board, group[0], group[1], group[2]):\n        return True # We found a winning row!\n        # Note that return also stops the function\n  if not any(\".\" in row for row in board):",
         "detail": "042_challenge_2_exercise",
         "documentation": {}
     },
@@ -1312,33 +1312,6 @@
         "description": "042_challenge_2_exercise",
         "peekOfCode": "groups_to_check = [\n  # Rows\n  [(0, 0), (0, 1), (0, 2)],\n  [(1, 0), (1, 1), (1, 2)],\n  [(2, 0), (2, 1), (2, 2)],\n  # Columns\n  [(0, 0), (1, 0), (2, 0)],\n  [(0, 1), (1, 1), (2, 1)],\n  [(0, 2), (1, 2), (2, 2)],\n  # Diagonals",
         "detail": "042_challenge_2_exercise",
-        "documentation": {}
-    },
-    {
-        "label": "my_list",
-        "kind": 5,
-        "importPath": "sandbox",
-        "description": "sandbox",
-        "peekOfCode": "my_list = [\"victor\", \"Janete\", \"tHAYANA\", \"NiamH\", \"jInX\"]\noutcome = \"Minha família é composta por: \"\nformated_names = []\nfor name in my_list:\n    formated_names.append(name.capitalize())\noutcome += \", \".join(formated_names[0:-1]) + \" and \" + formated_names[-1]\nprint(outcome)",
-        "detail": "sandbox",
-        "documentation": {}
-    },
-    {
-        "label": "outcome",
-        "kind": 5,
-        "importPath": "sandbox",
-        "description": "sandbox",
-        "peekOfCode": "outcome = \"Minha família é composta por: \"\nformated_names = []\nfor name in my_list:\n    formated_names.append(name.capitalize())\noutcome += \", \".join(formated_names[0:-1]) + \" and \" + formated_names[-1]\nprint(outcome)",
-        "detail": "sandbox",
-        "documentation": {}
-    },
-    {
-        "label": "formated_names",
-        "kind": 5,
-        "importPath": "sandbox",
-        "description": "sandbox",
-        "peekOfCode": "formated_names = []\nfor name in my_list:\n    formated_names.append(name.capitalize())\noutcome += \", \".join(formated_names[0:-1]) + \" and \" + formated_names[-1]\nprint(outcome)",
-        "detail": "sandbox",
         "documentation": {}
     }
 ]
